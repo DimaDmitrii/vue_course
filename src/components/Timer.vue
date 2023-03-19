@@ -17,7 +17,7 @@ import { ref,watch } from 'vue';
     let minutes = Math.floor( (birthDay.getTime() - today.getTime()) / (1000 * 60) ) - (days * 24 + hours) * 60
     let seconds = Math.floor( (birthDay.getTime() - today.getTime()) / (1000) ) - ((days * 24 + hours) * 60 + minutes) * 60
     // console.log("---", days, hours, minutes,seconds)
-    
+    //
     return [days, hours, minutes, seconds]
   }
   
