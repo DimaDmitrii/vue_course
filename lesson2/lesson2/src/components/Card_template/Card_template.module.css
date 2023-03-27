@@ -1,0 +1,39 @@
+
+p {
+    font-family: "Consolas";
+    padding: 20px 60px 20px 60px;
+    margin: 0px;
+}
+
+p::first-line {
+    color: #FF2F9F;
+}
+
+h2 {  
+    display: flex;  
+    font-family: "Consolas";
+    padding: 20px 60px 20px 60px;
+    margin: 0px;
+    color: #B007CB;
+}
+
+.teg_bar {
+    color: #FF2F9F;
+}
+
+.content {
+    width: 70vw;
+    min-height: 150px;
+    margin: 0px auto;
+    border-radius: 0px 0px 8px 8px;
+    background-color: whitesmoke;
+}
+
+.header {
+    margin: 15px auto 0px auto;
+    width: 70vw;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #d9d9dd;
+    color: #B007CB;
+
+}
